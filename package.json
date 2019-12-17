@@ -34,6 +34,8 @@
     "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
+    "@hot-loader/react-dom": "^16.11.0",
+    "eslint-config-react-app": "^5.1.0",
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.0"
   },
