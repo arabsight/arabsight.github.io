@@ -29,6 +29,6 @@ module.exports = {
     },
   ],
   email: 'r-ghodbane@live.com',
-  phone: '+213 (0)559 17 77 94',
+  phone: '+213 (0)549 40 32 08',
   address: "N'GAOUS BATNA, ALGERIA",
 };
