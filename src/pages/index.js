@@ -23,7 +23,7 @@ const IndexPage = () => (
           </div>
           <p className="lead mb-5">Coming soon...</p>
           <div className="social-icons">
-            {config.socialLinks.map(social => {
+            {config.socialLinks.map((social) => {
               const { icon, url } = social;
               return (
                 <a key={url} href={url}>
@@ -101,7 +101,8 @@ const IndexPage = () => (
           <div className="subheading mb-3">
             Programming Languages &amp; Tools
           </div>
-          <ul className="list-inline dev-icons">
+          <p>Coming soon...</p>
+          {/* <ul className="list-inline dev-icons">
             <li className="list-inline-item">
               <i className="fab fa-html5"></i>
             </li>
@@ -150,7 +151,7 @@ const IndexPage = () => (
               <i className="fa-li fa fa-check"></i>
               Cross Browser Testing &amp; Debugging
             </li>
-          </ul>
+          </ul> */}
         </div>
       </section>
 
@@ -162,8 +163,8 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
-          <p>Lorem ipsum...</p>
-          <p className="mb-0">Lorem ipsum...</p>
+          <p>Coming soon...</p>
+          {/* <p className="mb-0">Lorem ipsum...</p> */}
         </div>
       </section>
     </div>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
-import avatar from '../assets/images/avatar.png';
+import avatar from '../assets/images/avatar.jpg';
 import config from '../../config';
 
 export class Sidebar extends Component {
@@ -50,7 +50,7 @@ export class Sidebar extends Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <Scrollspy
-            items={tabs.map(s => s.href)}
+            items={tabs.map((s) => s.href)}
             currentClassName="active"
             offset={-300}
             className="navbar-nav"
